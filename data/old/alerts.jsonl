@@ -1,0 +1,11 @@
+{"prompt": "EVSE Faulty", "completion": "Check if Nexus box is reporting"}
+{"prompt": "EVSE Faulty", "completion": "Remotely restart EVSE from Nexus box"}
+{"prompt": "EVSE Faulty", "completion": "Send a tech out to check on the EVSE hardware"}
+{"prompt": "EVSE Not Reporting", "completion": "Check if Nexus box is reporting"}
+{"prompt": "EVSE Not Reporting", "completion": "Check if EVSE appears in Nexus site tree"}
+{"prompt": "EVSE Not Reporting", "completion": "Remotely restart EVSE from Nexus box"}
+{"prompt": "EVSE Not Reporting", "completion": "Send a tech out to check on the EVSE hardware"}
+{"prompt": "Site not reporting", "completion": "Check if this is a scheduled outage"}
+{"prompt": "Site not reporting", "completion": "Check if the Network Cradle is operational"}
+{"prompt": "Site not reporting", "completion": "Check Nexus box responds to SSH connections"}
+{"prompt": "Site not reporting", "completion": "Send tech to site to check on and restart the Nexus box"}
