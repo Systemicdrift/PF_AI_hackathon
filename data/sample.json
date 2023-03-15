@@ -1,0 +1,64 @@
+{
+  "receiver": "axcess",
+  "status": "resolved",
+  "alerts": [
+    {
+      "status": "resolved",
+      "labels": {
+        "acc_id": "02",
+        "acg_id": "03",
+        "acn_id": "0077",
+        "acs_id": "05",
+        "alertname": "EVSE Faulty Charger",
+        "consumer": "axcess",
+        "evse_type": "Webasto DX",
+        "instance": "netflix.powerflex.com:9001",
+        "job": "netflix",
+        "receive": "true",
+        "severity": "critical",
+        "space_number": "EV#6",
+        "state": "FAULTY CHARGER",
+        "team": "hit",
+        "tenant_id": "default-tenant",
+        "version": "v1"
+      },
+      "annotations": {
+        "derType": "EVSE",
+        "description": "EVSE is reporting faulty charger status",
+        "summary": "EVSE has entered FAULTY CHARGER state"
+      },
+      "startsAt": "2022-10-17T00:52:14.957445121Z",
+      "endsAt": "2022-10-17T06:59:59.957445121Z",
+      "generatorURL": "/graph?g0.expr=job%3Acount_evse_state%3Afaulty_charger\u0026g0.tab=1",
+      "fingerprint": "d0e85f29fbde9b18"
+    }
+  ],
+  "groupLabels": { "job": "netflix" },
+  "commonLabels": {
+    "acc_id": "02",
+    "acg_id": "03",
+    "acn_id": "0077",
+    "acs_id": "05",
+    "alertname": "EVSE Faulty Charger",
+    "consumer": "axcess",
+    "evse_type": "Webasto DX",
+    "instance": "netflix.powerflex.com:9001",
+    "job": "netflix",
+    "receive": "true",
+    "severity": "critical",
+    "space_number": "EV#6",
+    "state": "FAULTY CHARGER",
+    "team": "hit",
+    "tenant_id": "default-tenant",
+    "version": "v1"
+  },
+  "commonAnnotations": {
+    "derType": "EVSE",
+    "description": "EVSE is reporting faulty charger status",
+    "summary": "EVSE has entered FAULTY CHARGER state"
+  },
+  "externalURL": "http://alertmanager-alertmanager-0:9093",
+  "version": "4",
+  "groupKey": "{}/{consumer=\"axcess\"}:{job=\"netflix\"}",
+  "truncatedAlerts": 0
+}
