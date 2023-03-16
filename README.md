@@ -2,7 +2,7 @@
 A production of Von, Tal and Anthony
 
 ## About
-This project springs from onboarding documentatioon that that Axcess team has stood up to onboard new members of the team. There was expressed interest from across the organization to share those docs with other teams and subsequently non-powerflex employees. This would serve to inform the public in a conversational tone rather than present a stale readme to folks.
+This project springs from onboarding documentatioon that Axcess team has stood up to onboard new members of the team. There was expressed interest from across the organization to share those docs with other teams and subsequently non-powerflex employees. This would serve to inform the public in a conversational tone rather than present a stale readme to folks.
 
 Ask it "what is Axcess", "What is authz"... 
 
