@@ -2,7 +2,9 @@
 A production of Von, Tal and Anthony
 
 ## About
-This project builds a chatgpt model that consumes Powerflex documentation to learn about PF projects in a conversational tone. Ask it "what is Axcess", "What is authz"... 
+This project springs from onboarding documentatioon that that Axcess team has stood up to onboard new members of the team. There was expressed interest from across the organization to share those docs with other teams and subsequently non-powerflex employees. This would serve to inform the public in a conversational tone rather than present a stale readme to folks.
+
+Ask it "what is Axcess", "What is authz"... 
 
 There is also a similar experiement for alerts, but it does not have enough data.
 
@@ -17,3 +19,25 @@ pip3 install -r requirements.txt
 python3 app/gpt.py
 
 python3 app/alerts.py
+
+## ChatGPT
+At it's core, the Open AI chatgpt3 engine was used to create the underlying models and the Completion class to field requests. We consulted the documentation more than actually using chatgpt to build these models. We found that a lot of the answers chatgpt would give about itself were completely wrong. 
+
+## Python
+Python was an easy choice for this project as the base tools are written in python and there is good support.
+
+## Evolution
+1. Build your first jsonl file, filled with prompts/completions.
+2. Run the file through the fine-tuner: openai tools fine_tunes.prepare_data -f ./alerts.jsonl
+3. Create the model: openai api fine_tunes.create -t ./alerts_prepared.jsonl -m davinci
+4. Follow it's progress: openai api fine_tunes.follow -i ft-XIDtEA4HxOHW4PStoRZtNEHI
+
+## Value Proposition
+1. Surfacing documenation has long been a difficult task, this could provide a curated view into Powerflex's inner workings.
+2. Surfacing other tid bits of information has long been sought after as well, such as how do we handle alerting. The use case for this particular tool was to provide actions for specific types of alerts. Unfortunately the way the data was imported was not suitable for chatgpt's model.
+3. We can use this model to share information, and ultimately sell our products and services. EG: A chat bot that allows users to ask about products and curates a solution based on thier needs, without a sales person breathing down their backs.
+
+
+
+
+
