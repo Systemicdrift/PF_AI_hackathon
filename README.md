@@ -27,7 +27,8 @@ At it's core, the Open AI chatgpt3 engine was used to create the underlying mode
 The more data you have the better the model responds. We grabbed text from the onboarding docs and converted it to json using chatgpt. This is how we obtained data in the format that's accepted.
 
 We started by giving it a body of text and instructing it generate questions based on the given text.
-![Screen Shot![Screen Shot 2023-03-15 at 8 07 49 PM](https://user-images.githubusercontent.com/96091647/225483709-39d1fe81-084f-4f0b-82ae-903ef75e04b2.png)
+![Screen Shot 2023-03-15 at 8 07 58 PM](https://user-images.githubusercontent.com/96091647/225483868-3e747ac7-abbb-4c7b-baa5-2db354ffbf1d.png)
+
 
 Here's one of the responses
 ![Screen Shot 2023-03-15 at 8 07 49 PM](https://user-images.githubusercontent.com/96091647/225483808-86536e55-8b02-49c7-a6e0-90e5133375f9.png)
