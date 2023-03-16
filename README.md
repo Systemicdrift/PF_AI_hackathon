@@ -23,6 +23,12 @@ python3 app/alerts.py
 ## ChatGPT
 At it's core, the Open AI chatgpt3 engine was used to create the underlying models and the Completion class to field requests. We consulted the documentation more than actually using chatgpt to build these models. We found that a lot of the answers chatgpt would give about itself were completely wrong. 
 
+## Data
+The more data you have the better the model responds. We grabbed text from the onboarding docs and converted it to json using chatgpt. This is how we obtained data in the format that's accepted.
+![screencapture-chat-openai-chat-0d3f5ae9-5b24-45c2-8ae1-600da7668e32-2023-03-15-19_43_39-2](https://user-images.githubusercontent.com/96091647/225482904-ec2d8c9a-fcad-452c-8373-f2aca0ec6e01.png)
+![screencapture-chat-openai-chat-0d3f5ae9-5b24-45c2-8ae1-600da7668e32-2023-03-15-19_43_39](https://user-images.githubusercontent.com/96091647/225482934-4ef51bfc-9b6f-4d45-9076-517ac6891f33.png)
+
+
 ## Python
 Python was an easy choice for this project as the base tools are written in python and there is good support.
 
