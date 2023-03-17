@@ -20,6 +20,8 @@ python3 app/gpt.py
 
 python3 app/alerts.py
 
+Ask Von for his env file, openai disabled the api keys as soon as we posted to github
+
 ## ChatGPT
 At it's core, the Open AI chatgpt3 engine was used to create the underlying models and the Completion class to field requests. We consulted the documentation more than actually using chatgpt to build these models. We found that a lot of the answers chatgpt would give about itself were completely wrong. 
 
